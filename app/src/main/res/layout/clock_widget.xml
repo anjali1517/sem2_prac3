@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Sem2_prac3.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:theme="@style/Theme.Sem2_prac3.AppWidgetContainer">
+
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/castoro"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/castoro"
+        android:textSize="15sp"
+        android:layout_below="@+id/clock"/>
+
+
+
+</RelativeLayout>
